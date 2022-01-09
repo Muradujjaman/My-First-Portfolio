@@ -1,11 +1,23 @@
 body{
-    font-family: 'Libre Baskerville', serif, italic;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0px;
+
 }
 h1{
     font-size: 50px; 
+    font-family: 'Libre Baskerville', serif, italic;
+}
+h2{
+    font-size: 40px;
 }
 section{
     display: flex;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-bottom: 170px;
+    border: 20px;
+    
 
 }
 
@@ -21,5 +33,17 @@ section{
     padding-left: 3%;
 }
 .half-width img{
-    width: 70%;
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#f18c08e3,#ff0000);
+    padding: 10px 25px;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
